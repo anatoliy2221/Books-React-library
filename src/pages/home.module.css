@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* .content>* {
+    flex: 1;
+    margin: 10px;
+} */
+
+.content>.categoryList {
+    max-width: 20%;
+
+}
+
+.content>.booksAllCategories {
+    max-width: 80%;
+}
